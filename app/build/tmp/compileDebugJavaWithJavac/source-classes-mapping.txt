@@ -1,0 +1,2 @@
+com/lya/composego/BuildConfig.java
+ com.lya.composego.BuildConfig

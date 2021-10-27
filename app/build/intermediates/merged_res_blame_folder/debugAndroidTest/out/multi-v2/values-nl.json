@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/hzliyongan/git-mine/ComposeGo/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-nl/values-nl.xml",
+            "map": [
+                {
+                    "source": "/Users/hzliyongan/.gradle/caches/transforms-3/f5d0eae0c15800948ce3477452a3cdeb/transformed/jetified-ui-1.0.1/res/values-nl/values-nl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,197,280,377,453,555,642,731,796,861,938,1008",
+                        "endColumns": "91,82,96,75,101,86,88,64,64,76,69,119",
+                        "endOffsets": "192,275,372,448,550,637,726,791,856,933,1003,1123"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,197,280,377,453,555,642,731,796,861,1039,1109",
+                        "endColumns": "91,82,96,75,101,86,88,64,64,76,69,119",
+                        "endOffsets": "192,275,372,448,550,637,726,791,856,933,1104,1224"
+                    }
+                },
+                {
+                    "source": "/Users/hzliyongan/.gradle/caches/transforms-3/ac01873b5f746ff1d8d1e5e2eae17882/transformed/core-1.6.0/res/values-nl/values-nl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "12",
+                        "startColumns": "4",
+                        "startOffsets": "938",
+                        "endColumns": "100",
+                        "endOffsets": "1034"
+                    }
+                }
+            ]
+        }
+    ]
+}

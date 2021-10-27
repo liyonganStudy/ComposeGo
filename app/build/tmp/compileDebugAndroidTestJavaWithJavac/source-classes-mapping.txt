@@ -1,0 +1,2 @@
+com/lya/composego/test/BuildConfig.java
+ com.lya.composego.test.BuildConfig
