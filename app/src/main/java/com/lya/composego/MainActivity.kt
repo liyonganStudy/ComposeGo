@@ -22,6 +22,7 @@ import androidx.core.view.WindowCompat
 import com.google.accompanist.insets.ProvideWindowInsets
 import com.google.accompanist.insets.statusBarsPadding
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
+import com.lya.composego.jetnews.JetNewsActivity
 import com.lya.composego.ui.theme.ComposeGoTheme
 
 class MainActivity : ComponentActivity() {
@@ -54,7 +55,8 @@ private fun MyApp() {
         modifier = Modifier.statusBarsPadding().fillMaxHeight(),
         verticalArrangement = Arrangement.Center
     ) {
-        EntryItem(title = "JetNews", cls = LayoutsActivity::class.java)
+        EntryItem(title = "Layouts test", cls = LayoutsActivity::class.java)
+        EntryItem(title = "JetNews", cls = JetNewsActivity::class.java)
     }
 }
 

@@ -24,6 +24,9 @@
             android:name="com.lya.composego.LayoutsActivity"
             android:exported="true" />
         <activity
+            android:name="com.lya.composego.jetnews.JetNewsActivity"
+            android:exported="true" />
+        <activity
             android:name="com.lya.composego.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
