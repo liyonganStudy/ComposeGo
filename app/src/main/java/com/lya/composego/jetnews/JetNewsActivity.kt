@@ -14,6 +14,10 @@ import androidx.navigation.compose.rememberNavController
 import com.google.accompanist.insets.ProvideWindowInsets
 import com.google.accompanist.insets.statusBarsPadding
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
+import com.lya.composego.jetnews.ui.JetNewsDrawer
+import com.lya.composego.jetnews.ui.JetNewsNavigationActionsImpl
+import com.lya.composego.jetnews.ui.JetnewsDestinations
+import com.lya.composego.jetnews.ui.JetnewsNavGraph
 import com.lya.composego.ui.theme.ComposeGoTheme
 import kotlinx.coroutines.launch
 
@@ -59,6 +63,7 @@ fun JetNewsApp() {
                 drawerState = drawerState
             ) {
                 JetnewsNavGraph(
+                    modifier = statusBarPaddingModifier,
                     navController = naviController,
                     openDrawer = { coroutineScope.launch { drawerState.open() } }
                 )
