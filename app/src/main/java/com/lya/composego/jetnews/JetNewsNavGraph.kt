@@ -25,6 +25,7 @@ interface JetnewsNavigationActions {
 fun JetnewsNavGraph(
     modifier: Modifier = Modifier,
     navController: NavHostController = rememberNavController(),
+    openDrawer: () -> Unit,
     startDestination: String = JetnewsDestinations.HOME_ROUTE
 ) {
 
@@ -34,11 +35,11 @@ fun JetnewsNavGraph(
         startDestination = startDestination
     ) {
         composable(JetnewsDestinations.HOME_ROUTE) {
-            HomeScreen()
+            HomeScreen(openDrawer)
         }
 
         composable(JetnewsDestinations.INTERESTS_ROUTE) {
-            InterestScreen()
+            InterestScreen(openDrawer)
         }
     }
 

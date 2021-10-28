@@ -45,20 +45,23 @@ fun JetNewsApp() {
             val currentRoute = navBackStackEntry?.destination?.route ?: JetnewsDestinations.HOME_ROUTE
 
             val coroutineScope = rememberCoroutineScope()
-            val scaffoldState = rememberScaffoldState()
+            val drawerState = rememberDrawerState(DrawerValue.Closed)
 
-            Scaffold(
+            ModalDrawer(
                 drawerContent = {
                     JetNewsDrawer(
                         statusBarPaddingModifier,
                         currentRoute,
-                        { coroutineScope.launch { scaffoldState.drawerState.close() } },
+                        { coroutineScope.launch { drawerState.close() } },
                         navigationActions
                     )
                 },
-                scaffoldState = scaffoldState
+                drawerState = drawerState
             ) {
-                JetnewsNavGraph(navController = naviController)
+                JetnewsNavGraph(
+                    navController = naviController,
+                    openDrawer = { coroutineScope.launch { drawerState.open() } }
+                )
             }
         }
     }
