@@ -16,6 +16,18 @@
         "source": "/Users/hzliyongan/git-mine/ComposeGo/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "/Users/hzliyongan/git-mine/ComposeGo/app/build/intermediates/merged_res/debug/drawable_icon_article_background.xml.flat",
+        "source": "/Users/hzliyongan/git-mine/ComposeGo/app/src/main/res/drawable/icon_article_background.xml"
+    },
+    {
+        "merged": "/Users/hzliyongan/git-mine/ComposeGo/app/build/intermediates/merged_res/debug/drawable_ic_jetnews_wordmark.xml.flat",
+        "source": "/Users/hzliyongan/git-mine/ComposeGo/app/src/main/res/drawable/ic_jetnews_wordmark.xml"
+    },
+    {
+        "merged": "/Users/hzliyongan/git-mine/ComposeGo/app/build/intermediates/merged_res/debug/drawable_ic_text_settings.xml.flat",
+        "source": "/Users/hzliyongan/git-mine/ComposeGo/app/src/main/res/drawable/ic_text_settings.xml"
+    },
+    {
         "merged": "/Users/hzliyongan/git-mine/ComposeGo/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/Users/hzliyongan/git-mine/ComposeGo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
@@ -46,6 +58,10 @@
     {
         "merged": "/Users/hzliyongan/git-mine/ComposeGo/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/hzliyongan/git-mine/ComposeGo/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/hzliyongan/git-mine/ComposeGo/app/build/intermediates/merged_res/debug/drawable_ic_jetnews_logo.xml.flat",
+        "source": "/Users/hzliyongan/git-mine/ComposeGo/app/src/main/res/drawable/ic_jetnews_logo.xml"
     },
     {
         "merged": "/Users/hzliyongan/git-mine/ComposeGo/app/build/intermediates/merged_res/debug/drawable-v24_ic_launcher_foreground.xml.flat",

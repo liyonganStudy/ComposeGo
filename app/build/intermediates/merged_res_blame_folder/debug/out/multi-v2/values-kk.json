@@ -4,6 +4,23 @@
             "outputFile": "/Users/hzliyongan/git-mine/ComposeGo/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml",
             "map": [
                 {
+                    "source": "/Users/hzliyongan/.gradle/caches/transforms-3/ae9a004e51ca1bf82c3d133434b21796/transformed/jetified-ui-1.0.4/res/values-kk/values-kk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,198,281,386,467,576,666,748,817,885,958,1028",
+                        "endColumns": "92,82,104,80,108,89,81,68,67,72,69,117",
+                        "endOffsets": "193,276,381,462,571,661,743,812,880,953,1023,1141"
+                    },
+                    "to": {
+                        "startLines": "37,38,39,43,44,91,92,93,94,97,99,100",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3334,3427,3510,3844,3925,7653,7743,7825,7894,8128,8302,8372",
+                        "endColumns": "92,82,104,80,108,89,81,68,67,72,69,117",
+                        "endOffsets": "3422,3505,3610,3920,4029,7738,7820,7889,7957,8196,8367,8485"
+                    }
+                },
+                {
                     "source": "/Users/hzliyongan/.gradle/caches/transforms-3/ac01873b5f746ff1d8d1e5e2eae17882/transformed/core-1.6.0/res/values-kk/values-kk.xml",
                     "from": {
                         "startLines": "2",
@@ -54,23 +71,6 @@
                         "startOffsets": "278,386,491,601,686,792,911,991,1068,1159,1252,1347,1441,1541,1634,1729,1826,1917,2008,2089,2194,2297,2395,2502,2608,2708,2874,8046",
                         "endColumns": "107,104,109,84,105,118,79,76,90,92,94,93,99,92,94,96,90,90,80,104,102,97,106,105,99,165,94,81",
                         "endOffsets": "381,486,596,681,787,906,986,1063,1154,1247,1342,1436,1536,1629,1724,1821,1912,2003,2084,2189,2292,2390,2497,2603,2703,2869,2964,8123"
-                    }
-                },
-                {
-                    "source": "/Users/hzliyongan/.gradle/caches/transforms-3/f5d0eae0c15800948ce3477452a3cdeb/transformed/jetified-ui-1.0.1/res/values-kk/values-kk.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,198,281,386,467,576,666,748,817,885,958,1028",
-                        "endColumns": "92,82,104,80,108,89,81,68,67,72,69,117",
-                        "endOffsets": "193,276,381,462,571,661,743,812,880,953,1023,1141"
-                    },
-                    "to": {
-                        "startLines": "37,38,39,43,44,91,92,93,94,97,99,100",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3334,3427,3510,3844,3925,7653,7743,7825,7894,8128,8302,8372",
-                        "endColumns": "92,82,104,80,108,89,81,68,67,72,69,117",
-                        "endOffsets": "3422,3505,3610,3920,4029,7738,7820,7889,7957,8196,8367,8485"
                     }
                 }
             ]

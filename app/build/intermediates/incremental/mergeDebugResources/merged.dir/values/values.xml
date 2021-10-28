@@ -1005,6 +1005,7 @@
     <item name="mtrl_internal_children_alpha_tag" type="id"/>
     <item name="mtrl_motion_snapshot_view" type="id"/>
     <item name="mtrl_view_tag_bottom_padding" type="id"/>
+    <item name="nav_controller_view_tag" type="id"/>
     <item name="navigation_bar_item_icon_view" type="id"/>
     <item name="navigation_bar_item_labels_group" type="id"/>
     <item name="navigation_bar_item_large_label_view" type="id"/>
@@ -1114,16 +1115,34 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns2:g example="Mail" id="application_name">%s</ns2:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="agree">AGREE</string>
     <string name="androidx_startup" translatable="false">androidx.startup</string>
     <string name="app_name">ComposeGo</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="article_functionality_not_available">Functionality not available \uD83D\uDE48</string>
+    <string name="article_post_min_read">%1$s • %2$d min read</string>
+    <string name="article_published_in">Published in: %s</string>
+    <string name="article_share_post">Share post</string>
+    <string name="bookmark">bookmark</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string description="A description of an action that a user of an accessibility service can perform to expand a bottomsheet halfway to its full height. [CHAR LIMIT=25]" name="bottomsheet_action_expand_halfway">Expand halfway</string>
+    <string name="cd_add_to_favorites">Add to favorites</string>
+    <string name="cd_bookmark">Bookmark</string>
+    <string name="cd_interests">Interests</string>
+    <string name="cd_more_actions">More actions</string>
+    <string name="cd_navigate_home">Navigate to the home screen</string>
+    <string name="cd_navigate_interests">Navigate to the interests screen</string>
+    <string name="cd_navigate_up">Navigate up</string>
+    <string name="cd_open_navigation_drawer">Open navigation drawer</string>
+    <string name="cd_search">Search</string>
+    <string name="cd_share">Share</string>
+    <string name="cd_text_settings">Text settings</string>
     <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
     <string name="chip_text">Chip text</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="close">CLOSE</string>
     <string name="close_drawer">"Close navigation menu"</string>
     <string name="close_sheet">"Close sheet"</string>
     <string name="default_error_message">"Invalid input"</string>
@@ -1131,11 +1150,25 @@
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="fewer_stories">Show fewer stories like this?</string>
+    <string name="fewer_stories_content">This feature is not yet implemented</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="home_popular_section_title">Popular on Jetnews</string>
+    <string name="home_post_based_on_history">BASED ON YOUR HISTORY</string>
+    <string name="home_post_min_read">%1$s - %2$d min read</string>
+    <string name="home_search">Search articles</string>
+    <string name="home_tap_to_load_content">Tap to load content</string>
+    <string name="home_title">Home</string>
+    <string name="home_top_section_title">Top stories for you</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
     <string name="in_progress">In progress</string>
     <string name="indeterminate">Neither checked nor unchecked</string>
+    <string name="interests_section_people">People</string>
+    <string name="interests_section_publications">Publications</string>
+    <string name="interests_section_topics">Topics</string>
+    <string name="interests_title">Interests</string>
     <string name="item_view_role_description">Tab</string>
+    <string name="load_error">Can\'t update latest news</string>
     <string name="material_clock_display_divider" translatable="false">:</string>
     <string description="Description for the toggle to choose between AM and PM [CHAR_LIMIT=NONE] " name="material_clock_toggle_content_description">Select AM or PM</string>
     <string description="Description for button to switch to select the hour [CHAR_LIMIT=NONE]" name="material_hour_selection">Select hour</string>
@@ -1200,11 +1233,14 @@
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
+    <string name="published_in">Published in: \n%1$s</string>
+    <string name="retry">Retry</string>
     <string name="search_menu_title">Search</string>
     <string name="selected">Selected</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="tab">Tab</string>
     <string name="template_percent"><ns2:g id="percentage">%1$d</ns2:g> percent.</string>
+    <string name="unbookmark">unbookmark</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="AndroidThemeColorAccentYellow" ns1:ignore="NewApi">
@@ -5198,6 +5234,13 @@
          -->
         <attr format="reference" name="expandActivityOverflowButtonDrawable"/>
     </declare-styleable>
+    <declare-styleable name="ActivityNavigator">
+        <attr name="android:name"/>
+        <attr format="string" name="action"/>
+        <attr format="string" name="data"/>
+        <attr format="string" name="dataPattern"/>
+        <attr format="string" name="targetPackage"/>
+    </declare-styleable>
     <declare-styleable name="AlertDialog">
         <attr name="android:layout"/>
         <attr format="reference" name="buttonPanelSideLayout"/>
@@ -7284,6 +7327,40 @@
             <enum name="staticPostLayout" value="2"/>
             <enum name="staticLayout" value="3"/>
         </attr><attr format="color" name="telltales_tailColor"/><attr format="float" name="telltales_tailScale"/></declare-styleable>
+    <declare-styleable name="NavAction">
+        <attr name="android:id"/>
+        <attr format="reference" name="destination"/>
+        <attr format="boolean" name="launchSingleTop"/>
+        <attr format="boolean" name="restoreState"/>
+        <attr format="reference" name="popUpTo"/>
+        <attr format="boolean" name="popUpToInclusive"/>
+        <attr format="boolean" name="popUpToSaveState"/>
+        <attr format="reference" name="enterAnim"/>
+        <attr format="reference" name="exitAnim"/>
+        <attr format="reference" name="popEnterAnim"/>
+        <attr format="reference" name="popExitAnim"/>
+    </declare-styleable>
+    <declare-styleable name="NavArgument">
+        <attr name="android:name"/>
+        <attr name="android:defaultValue"/>
+        <attr format="boolean" name="nullable"/>
+        <attr format="string" name="argType"/>
+    </declare-styleable>
+    <declare-styleable name="NavDeepLink">
+        <attr format="string" name="uri"/>
+        <attr format="string" name="action"/>
+        <attr format="string" name="mimeType"/>
+        <attr name="android:autoVerify"/>
+    </declare-styleable>
+    <declare-styleable name="NavGraphNavigator">
+        <attr format="reference" name="startDestination"/>
+    </declare-styleable>
+    <declare-styleable name="NavHost">
+        <attr format="reference" name="navGraph"/>
+    </declare-styleable>
+    <declare-styleable name="NavInclude">
+        <attr format="reference" name="graph"/>
+    </declare-styleable>
     <declare-styleable name="NavigationBarView">
     <!-- Background tint for the navigation bar. -->
     <attr name="backgroundTint"/>
@@ -7403,6 +7480,11 @@
     -->
     <attr name="shapeAppearanceOverlay"/>
   </declare-styleable>
+    <declare-styleable name="Navigator">
+        <attr name="android:id"/>
+        <attr format="string" name="route"/>
+        <attr name="android:label"/>
+    </declare-styleable>
     <declare-styleable name="OnClick"><attr name="targetId"/><attr name="clickAction">
             <flag name="toggle" value="0x0011"/>
             <flag name="transitionToEnd" value="0x0001"/>

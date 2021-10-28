@@ -3,12 +3,8 @@ package com.lya.composego.jetnews
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Scaffold
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.SideEffect
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.remember
+import androidx.compose.material.*
+import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
@@ -19,6 +15,7 @@ import com.google.accompanist.insets.ProvideWindowInsets
 import com.google.accompanist.insets.statusBarsPadding
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import com.lya.composego.ui.theme.ComposeGoTheme
+import kotlinx.coroutines.launch
 
 class JetNewsActivity : ComponentActivity() {
 
@@ -45,17 +42,23 @@ fun JetNewsApp() {
             val naviController = rememberNavController()
             val navigationActions = remember(naviController) { JetNewsNavigationActionsImpl(naviController) }
             val navBackStackEntry by naviController.currentBackStackEntryAsState()
-            val currentRoute = navBackStackEntry?.destination?.route ?: JetNewsDestinations.HOME_ROUTE
+            val currentRoute = navBackStackEntry?.destination?.route ?: JetnewsDestinations.HOME_ROUTE
 
-            Scaffold(drawerContent = {
-                JetNewsDrawer(
-                    statusBarPaddingModifier,
-                    currentRoute,
-                    navigationActions,
-                    {}
-                )
-            }) {
+            val coroutineScope = rememberCoroutineScope()
+            val scaffoldState = rememberScaffoldState()
 
+            Scaffold(
+                drawerContent = {
+                    JetNewsDrawer(
+                        statusBarPaddingModifier,
+                        currentRoute,
+                        { coroutineScope.launch { scaffoldState.drawerState.close() } },
+                        navigationActions
+                    )
+                },
+                scaffoldState = scaffoldState
+            ) {
+                JetnewsNavGraph(navController = naviController)
             }
         }
     }

@@ -21,8 +21,8 @@ import com.lya.composego.R
 fun JetNewsDrawer(
     modifier: Modifier = Modifier,
     currentRoute: String,
-    navigationActions: JetnewsNavigationActions,
-    closeDrawer: () -> Unit
+    closeDrawer: () -> Unit,
+    navigationActions: JetnewsNavigationActions
 ) {
     Column(modifier.fillMaxSize()) {
         Logo(Modifier.padding(16.dp))
@@ -30,7 +30,7 @@ fun JetNewsDrawer(
 
         DrawerItem(
             Modifier.padding(start = 8.dp, top = 8.dp, end = 8.dp),
-            currentRoute == JetNewsDestinations.HOME_ROUTE,
+            currentRoute == JetnewsDestinations.HOME_ROUTE,
             {
                 navigationActions.navigateToHome()
                 closeDrawer()
@@ -41,7 +41,7 @@ fun JetNewsDrawer(
 
         DrawerItem(
             Modifier.padding(start = 8.dp, top = 8.dp, end = 8.dp),
-            currentRoute == JetNewsDestinations.INTERESTS_ROUTE,
+            currentRoute == JetnewsDestinations.INTERESTS_ROUTE,
             {
                 navigationActions.navigateToInterests()
                 closeDrawer()

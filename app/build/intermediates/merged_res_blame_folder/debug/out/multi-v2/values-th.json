@@ -57,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "/Users/hzliyongan/.gradle/caches/transforms-3/f5d0eae0c15800948ce3477452a3cdeb/transformed/jetified-ui-1.0.1/res/values-th/values-th.xml",
+                    "source": "/Users/hzliyongan/.gradle/caches/transforms-3/ae9a004e51ca1bf82c3d133434b21796/transformed/jetified-ui-1.0.4/res/values-th/values-th.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",

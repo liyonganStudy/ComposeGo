@@ -1,9 +1,14 @@
 package com.lya.composego.jetnews
 
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
 
-object JetNewsDestinations {
+object JetnewsDestinations {
     const val HOME_ROUTE = "home"
     const val INTERESTS_ROUTE = "interests"
 }
@@ -11,14 +16,38 @@ object JetNewsDestinations {
 interface JetnewsNavigationActions {
 
     fun navigateToHome()
-    
+
     fun navigateToInterests()
-    
+
 }
 
-class JetNewsNavigationActionsImpl(val navController: NavHostController) : JetnewsNavigationActions {
+@Composable
+fun JetnewsNavGraph(
+    modifier: Modifier = Modifier,
+    navController: NavHostController = rememberNavController(),
+    startDestination: String = JetnewsDestinations.HOME_ROUTE
+) {
+
+    NavHost(
+        modifier = modifier,
+        navController = navController,
+        startDestination = startDestination
+    ) {
+        composable(JetnewsDestinations.HOME_ROUTE) {
+            HomeScreen()
+        }
+
+        composable(JetnewsDestinations.INTERESTS_ROUTE) {
+            InterestScreen()
+        }
+    }
+
+}
+
+class JetNewsNavigationActionsImpl(private val navController: NavHostController) :
+    JetnewsNavigationActions {
     override fun navigateToHome() {
-        navController.navigate(JetNewsDestinations.HOME_ROUTE) {
+        navController.navigate(JetnewsDestinations.HOME_ROUTE) {
             popUpTo(navController.graph.findStartDestination().id) {
                 saveState = true
             }
@@ -28,7 +57,7 @@ class JetNewsNavigationActionsImpl(val navController: NavHostController) : Jetne
     }
 
     override fun navigateToInterests() {
-        navController.navigate(JetNewsDestinations.INTERESTS_ROUTE) {
+        navController.navigate(JetnewsDestinations.INTERESTS_ROUTE) {
             popUpTo(navController.graph.findStartDestination().id) {
                 saveState = true
             }
