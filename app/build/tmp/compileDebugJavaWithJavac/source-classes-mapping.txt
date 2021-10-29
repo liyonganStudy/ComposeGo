@@ -1,2 +1,72 @@
+com/lya/composego/jetcaster/data/room/CategoriesDao_Impl.java
+ com.lya.composego.jetcaster.data.room.CategoriesDao_Impl
+ com.lya.composego.jetcaster.data.room.CategoriesDao_Impl$1
+ com.lya.composego.jetcaster.data.room.CategoriesDao_Impl$10
+ com.lya.composego.jetcaster.data.room.CategoriesDao_Impl$2
+ com.lya.composego.jetcaster.data.room.CategoriesDao_Impl$3
+ com.lya.composego.jetcaster.data.room.CategoriesDao_Impl$4
+ com.lya.composego.jetcaster.data.room.CategoriesDao_Impl$5
+ com.lya.composego.jetcaster.data.room.CategoriesDao_Impl$6
+ com.lya.composego.jetcaster.data.room.CategoriesDao_Impl$7
+ com.lya.composego.jetcaster.data.room.CategoriesDao_Impl$8
+ com.lya.composego.jetcaster.data.room.CategoriesDao_Impl$9
+com/example/jetcaster/data/room/TransactionRunnerDao_Impl.java
+ com.example.jetcaster.data.room.TransactionRunnerDao_Impl
+ com.example.jetcaster.data.room.TransactionRunnerDao_Impl$1
+com/example/jetcaster/data/room/PodcastsDao_Impl.java
+ com.example.jetcaster.data.room.PodcastsDao_Impl
+ com.example.jetcaster.data.room.PodcastsDao_Impl$1
+ com.example.jetcaster.data.room.PodcastsDao_Impl$10
+ com.example.jetcaster.data.room.PodcastsDao_Impl$11
+ com.example.jetcaster.data.room.PodcastsDao_Impl$12
+ com.example.jetcaster.data.room.PodcastsDao_Impl$13
+ com.example.jetcaster.data.room.PodcastsDao_Impl$2
+ com.example.jetcaster.data.room.PodcastsDao_Impl$3
+ com.example.jetcaster.data.room.PodcastsDao_Impl$4
+ com.example.jetcaster.data.room.PodcastsDao_Impl$5
+ com.example.jetcaster.data.room.PodcastsDao_Impl$6
+ com.example.jetcaster.data.room.PodcastsDao_Impl$7
+ com.example.jetcaster.data.room.PodcastsDao_Impl$8
+ com.example.jetcaster.data.room.PodcastsDao_Impl$9
+com/example/jetcaster/data/room/PodcastFollowedEntryDao_Impl.java
+ com.example.jetcaster.data.room.PodcastFollowedEntryDao_Impl
+ com.example.jetcaster.data.room.PodcastFollowedEntryDao_Impl$1
+ com.example.jetcaster.data.room.PodcastFollowedEntryDao_Impl$10
+ com.example.jetcaster.data.room.PodcastFollowedEntryDao_Impl$11
+ com.example.jetcaster.data.room.PodcastFollowedEntryDao_Impl$2
+ com.example.jetcaster.data.room.PodcastFollowedEntryDao_Impl$3
+ com.example.jetcaster.data.room.PodcastFollowedEntryDao_Impl$4
+ com.example.jetcaster.data.room.PodcastFollowedEntryDao_Impl$5
+ com.example.jetcaster.data.room.PodcastFollowedEntryDao_Impl$6
+ com.example.jetcaster.data.room.PodcastFollowedEntryDao_Impl$7
+ com.example.jetcaster.data.room.PodcastFollowedEntryDao_Impl$8
+ com.example.jetcaster.data.room.PodcastFollowedEntryDao_Impl$9
+com/example/jetcaster/data/room/PodcastCategoryEntryDao_Impl.java
+ com.example.jetcaster.data.room.PodcastCategoryEntryDao_Impl
+ com.example.jetcaster.data.room.PodcastCategoryEntryDao_Impl$1
+ com.example.jetcaster.data.room.PodcastCategoryEntryDao_Impl$2
+ com.example.jetcaster.data.room.PodcastCategoryEntryDao_Impl$3
+ com.example.jetcaster.data.room.PodcastCategoryEntryDao_Impl$4
+ com.example.jetcaster.data.room.PodcastCategoryEntryDao_Impl$5
+ com.example.jetcaster.data.room.PodcastCategoryEntryDao_Impl$6
+ com.example.jetcaster.data.room.PodcastCategoryEntryDao_Impl$7
+ com.example.jetcaster.data.room.PodcastCategoryEntryDao_Impl$8
+com/example/jetcaster/data/room/JetcasterDatabase_Impl.java
+ com.example.jetcaster.data.room.JetcasterDatabase_Impl
+ com.example.jetcaster.data.room.JetcasterDatabase_Impl$1
 com/lya/composego/BuildConfig.java
  com.lya.composego.BuildConfig
+com/example/jetcaster/data/room/EpisodesDao_Impl.java
+ com.example.jetcaster.data.room.EpisodesDao_Impl
+ com.example.jetcaster.data.room.EpisodesDao_Impl$1
+ com.example.jetcaster.data.room.EpisodesDao_Impl$10
+ com.example.jetcaster.data.room.EpisodesDao_Impl$11
+ com.example.jetcaster.data.room.EpisodesDao_Impl$12
+ com.example.jetcaster.data.room.EpisodesDao_Impl$2
+ com.example.jetcaster.data.room.EpisodesDao_Impl$3
+ com.example.jetcaster.data.room.EpisodesDao_Impl$4
+ com.example.jetcaster.data.room.EpisodesDao_Impl$5
+ com.example.jetcaster.data.room.EpisodesDao_Impl$6
+ com.example.jetcaster.data.room.EpisodesDao_Impl$7
+ com.example.jetcaster.data.room.EpisodesDao_Impl$8
+ com.example.jetcaster.data.room.EpisodesDao_Impl$9

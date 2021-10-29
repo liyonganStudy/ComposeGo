@@ -22,6 +22,7 @@ import androidx.core.view.WindowCompat
 import com.google.accompanist.insets.ProvideWindowInsets
 import com.google.accompanist.insets.statusBarsPadding
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
+import com.lya.composego.jetcaster.JetcasterActivity
 import com.lya.composego.jetnews.JetNewsActivity
 import com.lya.composego.ui.theme.ComposeGoTheme
 
@@ -57,6 +58,7 @@ private fun MyApp() {
     ) {
         EntryItem(title = "Layouts test", cls = LayoutsActivity::class.java)
         EntryItem(title = "JetNews", cls = JetNewsActivity::class.java)
+        EntryItem(title = "Jetcaster", cls = JetcasterActivity::class.java)
     }
 }
 
